@@ -1,0 +1,10 @@
+// import logo from '../images/logo.jpg'
+
+export default function Navbar() {
+  return (
+    <div>
+      {/* <img src={logo} alt="logo" /> */}
+      <h1 className="nav-header">airbnb</h1>
+    </div>
+  )
+}
