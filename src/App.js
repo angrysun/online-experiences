@@ -31,7 +31,6 @@ function App() {
         punchline="Scurvy"
       />
       <Joke
-        setup="Why do bees stay in the hive in the winter?"
         punchline="Swarm"
       />
       <Joke

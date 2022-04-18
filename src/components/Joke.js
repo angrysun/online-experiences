@@ -1,8 +1,8 @@
 export default function Joke(props) {
   return (
     <div>
-      <p>{props.setup}</p>
-      <p>{props.punchline}</p>
+      {props.setup && <h3>Setup: {props.setup}</h3>}
+      <p>Punchline: {props.punchline}</p>
       <hr />
     </div>
   )
