@@ -33,11 +33,15 @@ function App() {
         setup="I got my daughter a fridge for her birthday."
         punchline="I can't wait to see her face light up when she opens it."
         isPun={false}
+        upvotes={14}
+        downvotes={6}
       />
       <Joke
         setup="How did the hacker escape the police?"
         punchline="He just ransomware!"
         isPun={true}
+        upvotes={11}
+        downvotes={3}
       />
       <Joke
         setup="Why don't pirates travel on mountain roads?"
