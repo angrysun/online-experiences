@@ -47,11 +47,15 @@ function App() {
         setup="Why don't pirates travel on mountain roads?"
         punchline="Scurvy."
         isPun={true}
-      />
+        upvotes={11}
+        downvotes={3}
+        />
       <Joke
         setup="Why do bees stay in the hive in the winter?"
         punchline="Swarm."
         isPun={true}
+        upvotes={11}
+        downvotes={3}
       />
       <Joke
         setup="What's the best thing about Switzerland?"
