@@ -61,6 +61,8 @@ function App() {
         setup="What's the best thing about Switzerland?"
         punchline="I don't know, but the flag is a big plus!"
         isPun={false}
+        upvotes={11}
+        downvotes={3}
       />
     </div>
   );
