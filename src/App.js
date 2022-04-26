@@ -13,6 +13,7 @@ function App() {
     return <Card
       key={item.id}
       item={item}
+      // {...item}
     />
   })
   // const jokeElements = jokesData.map(joke => {
