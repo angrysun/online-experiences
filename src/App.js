@@ -18,6 +18,14 @@ function App() {
         phone="(212) 555-1234"
         email="mr.whiskaz@catnap.meow"
       />
+      <Card
+        img="katie-zaferes.png"
+        rating="5.0"
+        reviewCount={6}
+        country="USA"
+        title="Life lessons with Katie Zaferes"
+        price={136}
+      />
       <Joke
         setup="I got my daughter a fridge for her birthday."
         punchline="I can't wait to see her face light up when she opens it."
