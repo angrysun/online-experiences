@@ -10,6 +10,8 @@ export default function Joke(props) {
   //   setIsShown(prevShown => !prevShown)
   // }
 
+  const singular = messages.length === 1 ? "" : "s"
+
   return (
     <div>
       {props.setup && <h3>Setup: {props.setup}</h3>}
@@ -18,7 +20,12 @@ export default function Joke(props) {
       <button onClick={toggleIsShown}>
         {isShown ? "Hide" : "Show"} Punchline
       </button>
-      {messages.length >= 1 && <h1>You have {messages.length} unread messages!</h1>}
+      {/* {messages.length >= 1 && <h1>You have {messages.length} unread messages!</h1>} */}
+      {
+        messages.length > 0 ?
+        <h1>`You have ${messages.length} unread message${singular}`</h1> :
+        <h1>"You're all caught up!"</h1>
+      }
       <hr />
     </div>
   )
