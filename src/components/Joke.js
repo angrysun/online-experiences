@@ -12,7 +12,8 @@ export default function Joke(props) {
   return (
     <div>
       {props.setup && <h3>Setup: {props.setup}</h3>}
-      <p>Punchline: {props.punchline}</p>
+      {/* if isShown is falsey the p tag will never run and not show up */}
+      {isShown && <p>Punchline: {props.punchline}</p>}
       <button onClick={toggleIsShown}>
         Click me
       </button>
