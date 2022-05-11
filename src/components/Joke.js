@@ -26,6 +26,13 @@ export default function Joke(props) {
         <h1>`You have ${messages.length} unread message${singular}`</h1> :
         <h1>"You're all caught up!"</h1>
       }
+      {/* {
+        messages.length === 0 ?
+          <h1>You're all caught up!</h1> :
+          <h1>
+            You have {messages.length} unread {messages.length > 1 ? "messages" : "message"}
+          </h1>
+      } */}
       <hr />
     </div>
   )
