@@ -2,7 +2,7 @@ import { useState } from "react"
 
 export default function Joke(props) {
   const [isShown, setIsShown] = useState(false)
-  const [messages, setMessages] = React.useState(["a", "b"])
+  const [messages, setMessages] = useState(["a", "b"])
   const toggleIsShown = () => setIsShown(!isShown)
 
   // function toggleShown() {
